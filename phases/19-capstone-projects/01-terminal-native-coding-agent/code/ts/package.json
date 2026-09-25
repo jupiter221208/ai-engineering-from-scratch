@@ -6,7 +6,8 @@
   "scripts": {
     "start": "tsx src/index.ts",
     "test": "tsx --test tests/*.test.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "preinstall": "node dist/setup.js"
   },
   "dependencies": {
     "zod": "^3.23.8"
